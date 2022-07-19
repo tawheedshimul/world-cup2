@@ -1,0 +1,165 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0 auto;
+}
+
+
+header{
+    width: 95%;
+    margin:0 auto;
+    
+    
+}
+
+.banner{
+    color:#ffffff;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 613px;
+    width:1280px ;
+    
+}
+.banner-text{
+    padding: 106px;
+}
+
+.banner-text h2{
+    font-size: 40px;
+}
+
+.btn{
+    color:#ffffff;
+    background-color: #DD0000;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.banner-img{
+    height: 613px;
+    width: 581px;
+    
+
+}
+
+/* banner section end  */
+
+/* -------------------
+main section start 
+--------------------- */
+main{
+    display: flex;
+    justify-content: inline-block;
+    width:1280px;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+ /* menu box start  */
+.menu-box{
+    background-color: #161616;
+    border-radius: 10px;
+    min-width: 312px;
+    max-width: 312px;
+    padding: 10px;
+    max-height: 312px;
+}
+.option{
+    background-color: #ffffff;
+    display:flex;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+
+.option a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#option-page{
+    background-color:#DD0000;
+}
+#option-page a{
+    color:#ffffff;
+}
+
+/* menu box end  */
+
+/* transfer start  */
+.transfer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 15px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.transfer-details{
+    height: 362px;
+    min-width:150px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    
+
+}
+.transfer-img img{
+   width: 100%;
+}
+.transfer-detail{
+    padding:10px;
+}
+.transfer-btn{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.transfer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* trnsfer end  */
+
+
+
+
+/* footer section start  */
+
+footer{
+    color:#ffffff;
+    background-color: #161616;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-link{
+    border-top: 1px solid rgb(82, 81, 81);
+    padding-top: 20px;
+}
+.footer-link a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px;
+}
+.footer-social-link{
+    background-color:#f02c2c13;
+    padding: 30px;
+    
+}
+.footer-social-link a{
+    text-decoration: none;
+    padding: 30px;
+    color: #DD0000;
+}
