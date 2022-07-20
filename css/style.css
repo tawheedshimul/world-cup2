@@ -7,23 +7,22 @@ body{
 header{
     width: 95%;
     margin:0 auto;
-    
-    
+    align-items: center; 
 }
 
 .banner{
     color:#ffffff;
     background-color: #161616;
     border-radius: 10px;
-    margin-top: 40px;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 60% 40%;
     height: 613px;
-    width:1280px ;
+    width:100% ;
     
 }
 .banner-text{
-    padding: 106px;
+    padding: 10%;
 }
 
 .banner-text h2{
@@ -40,7 +39,7 @@ header{
 
 .banner-img{
     height: 613px;
-    width: 581px;
+    width: 100%;
     
 
 }
@@ -53,7 +52,7 @@ main section start
 main{
     display: flex;
     justify-content: inline-block;
-    width:1280px;
+    width:95%;
     margin:0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -69,6 +68,9 @@ main{
     padding: 10px;
     max-height: 312px;
     min-height: 312px;
+}
+.tab-menu-box{
+    display: none;
 }
 .option{
     background-color: #ffffff;
@@ -177,3 +179,42 @@ footer{
     background-color: rgba(177, 144, 144, 0.329);
     transition:.5s;
 }
+
+/*--------------
+-
+-------------
+- footer end --
+--------
+---------------
+------------------------------------------ */
+
+/*---------------------------------------------
+ ------------upcoming match css---------------
+ ------------- ----------------- -------------*/
+ 
+ .match-schedule{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 10px;
+ }
+ 
+ .match{
+    border: 1px solid #b1b1b1b0;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    
+ } 
+ .flag{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .flag img{
+    height: 100%;
+    width:100%;
+  }
