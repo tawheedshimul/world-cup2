@@ -28,6 +28,16 @@ header{
 .banner-text h2{
     font-size: 40px;
 }
+.banner-link{
+    text-align: center;
+}
+.banner-link a{
+    display:grid ;
+    grid-template-columns: repeat(1 ,1fr);
+    margin-top: 10px;
+    width: 70%;
+    align-items: center;
+}
 
 .btn{
     color:#ffffff;
@@ -35,6 +45,8 @@ header{
     padding: 10px;
     border-radius: 5px;
     border: 0px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .banner-img{
@@ -203,8 +215,8 @@ footer{
  .match-schedule{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 60px;
-    column-gap: 60px;
+    row-gap: 10px;
+    column-gap: 10px;
  }
  
  .match{
@@ -213,6 +225,7 @@ footer{
     border-radius: 10px;
     text-align: center;
     min-width: 200px;
+    margin-left: 10px;
     
  } 
  .flag{
@@ -224,5 +237,5 @@ footer{
 
   .flag img{
     height: 100%;
-    width:100%;
+    width:200px;
   }
