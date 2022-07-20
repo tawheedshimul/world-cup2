@@ -1,6 +1,6 @@
 /* tablet Viuew  */
 
-@media screen and (min-width:398px) and (max-width:768px){
+@media only screen and (min-width:398px) and (max-width:768px){
     .banner{
         width: 700px;
         height:500px;
@@ -29,14 +29,40 @@ main section start
     display: inline;
     }
 
-    .menu-box{
-    display: flex;justify-content: center;
 
-    }
 
     .transfer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
+}
+
+
+
+/* mobile view  */
+@media only screen and (min-width:100px) and (max-width:580px){
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+        margin: 0 auto;
+        width: 100%;
+        align-items: center;
+    }
+    .banner-img{
+        padding-left: 10px;
+    }
+    main{
+        display: inline;
+    }
+
+    .transfer{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+     }
+    .transfer-details{
+        padding-bottom: 90px;
+        margin-bottom: 10px;
+    }
 }
