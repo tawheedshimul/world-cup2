@@ -1,0 +1,42 @@
+/* tablet Viuew  */
+
+@media screen and (min-width:398px) and (max-width:768px){
+    .banner{
+        width: 700px;
+        height:500px;
+        margin: auto;
+    }
+
+    
+    .banner-text {
+    padding-left: 40px;
+    padding-right: 0px;
+    font-size: ;
+   
+    }
+    .banner-text h2{
+    font-size: 25px;
+    }
+    .banner-img {
+    height: 500px;
+    width: 435px;
+    }
+/* -------------------
+main section start 
+--------------------- */
+
+    main{
+    display: inline;
+    }
+
+    .menu-box{
+    display: flex;justify-content: center;
+
+    }
+
+    .transfer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
