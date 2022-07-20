@@ -146,6 +146,7 @@ footer{
 .footer-link{
     border-top: 1px solid rgb(82, 81, 81);
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .footer-link a{
     text-decoration: none;
@@ -153,6 +154,12 @@ footer{
     font-weight: 500;
     font-size: 16px;
     padding: 20px;
+}
+
+.footer-link a:hover{
+    color:#DD0000;
+    transition:.5s;
+    background-color: rgba(177, 144, 144, 0.329);
 }
 .footer-social-link{
     background-color:#f02c2c13;
@@ -163,4 +170,10 @@ footer{
     text-decoration: none;
     padding: 30px;
     color: #DD0000;
+    border: 1px dotted rgba(158, 122, 122, 0.233);
+}
+
+.footer-social-link a:hover{
+    background-color: rgba(177, 144, 144, 0.329);
+    transition:.5s;
 }
