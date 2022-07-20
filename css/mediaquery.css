@@ -46,6 +46,11 @@ main section start
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .see-all{
+        text-align: center;
+    }
+
 /* upcoming match  */
     .match-schedule{
         display: grid;
@@ -105,6 +110,10 @@ main section start
         padding-bottom: 90px;
         margin-bottom: 10px;
 
+    }
+
+    .see-all{
+        display: none;
     }
 
     /* footer  */

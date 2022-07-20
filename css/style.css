@@ -131,6 +131,14 @@ main{
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media only screen and (min-width:769px){
+    .see-all{
+        display: none;
+    }
+}
+
+
 /* trnsfer end  */
 
 
@@ -195,9 +203,8 @@ footer{
  .match-schedule{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 10px;
-    column-gap: 10px;
-    margin-left: 10px;
+    row-gap: 60px;
+    column-gap: 60px;
  }
  
  .match{
@@ -205,6 +212,7 @@ footer{
     padding: 5px;
     border-radius: 10px;
     text-align: center;
+    min-width: 200px;
     
  } 
  .flag{
