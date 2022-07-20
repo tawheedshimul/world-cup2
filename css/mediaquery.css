@@ -50,11 +50,19 @@ main section start
         width: 100%;
         align-items: center;
     }
-    .banner-img{
+    .banner-text {
         padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .banner-img{
+        width: 100%;
     }
     main{
         display: inline;
+        align-items: center;
+        margin: 0 auto;
     }
 
     .transfer{
@@ -64,5 +72,6 @@ main section start
     .transfer-details{
         padding-bottom: 90px;
         margin-bottom: 10px;
+
     }
 }
