@@ -21,6 +21,7 @@ header{
     width:100% ;
     
 }
+
 .banner-text{
     padding: 10%;
 }
@@ -29,14 +30,35 @@ header{
     font-size: 40px;
 }
 .banner-link{
-    text-align: center;
+    
 }
+
 .banner-link a{
-    display:grid ;
-    grid-template-columns: repeat(1 ,1fr);
     margin-top: 10px;
-    width: 70%;
-    align-items: center;
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.banner-link i{
+    
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: server;
+    -webkit-animation-duration: 3s;
+    position: relative;
+}
+    
+
+@-webkit-keyframes server{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 20%;
+    }
+    20%{
+        left: 0%;
+    }
 }
 
 .btn{
@@ -47,6 +69,11 @@ header{
     border: 0px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.btn:hover{
+    transition: .3s;
+    transform: scale(1.2);
 }
 
 .banner-img{
